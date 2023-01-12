@@ -8,7 +8,7 @@ OBJDIR = ./obj
 OBJS = $(addprefix $(OBJDIR)/, $(SRCS:.c=.o))
 LIBFT_PATH = ./libft
 LIBFT = $(LIBFT_PATH)/libft.a
-# MINILIB_PATH = ./minilibx_mms_20200219
+MINILIB_PATH = ./minilibx_mms_20200219
 # MINILIB_PATH = ./minilibx_opengl_20191021
 # MINILIB_PATH = ./minilibx-linux
 MINILIB = $(MINILIB_PATH)/libmlx*
